@@ -1,0 +1,39 @@
+
+### student create
+POST localhost:8081/student/create
+Content-Type: application/json
+
+{
+  "name": "Sardor",
+  "surname": "Kamolov",
+  "phone": "33333",
+  "createdDate": "2019-12-12",
+  "role": "STUDENT",
+  "visible": "true"
+}
+
+### student list
+GET localhost:8081/student/studentList
+Content-Type: application/json
+
+
+### student getById
+GET localhost:8081/student/getById/1
+Content-Type: application/json
+
+### student update
+PUT localhost:8081/student/update/2
+Content-Type: application/json
+
+{
+  "name": "Doston",
+  "surname": "Nazarov",
+  "phone": "4477",
+  "createdDate": "1996-10-09",
+  "role": "STUDENT",
+  "visible": "true"
+}
+
+### student delete
+DELETE localhost:8081/student/delete/3
+Content-Type: application/json

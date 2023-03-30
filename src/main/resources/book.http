@@ -1,7 +1,4 @@
 
-### book list
-GET localhost:8081/book/bookList
-
 ### book create
 POST localhost:8081/book/create
 Content-Type: application/json
@@ -13,6 +10,9 @@ Content-Type: application/json
   "amount": "4",
   "visible": "true"
 }
+
+### book list
+GET localhost:8081/book/bookList
 
 ### book getById
 GET localhost:8081/book/get/1
